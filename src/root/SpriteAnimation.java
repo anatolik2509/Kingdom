@@ -1,3 +1,5 @@
+package root;
+
 import javafx.geometry.Rectangle2D;
 import javafx.scene.image.ImageView;
 

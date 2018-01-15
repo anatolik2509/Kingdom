@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.Font?>
+
+<FlowPane fx:id="Contain" alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="280.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.MainMenuGameController">
+   <children>
+      <Label fx:id="newGame" text="New game" textFill="#0f0f0f">
+         <font>
+            <Font name="French Script MT" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</FlowPane>

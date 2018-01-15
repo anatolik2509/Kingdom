@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.Font?>
+
+<FlowPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="280.0" prefWidth="200.0" style="-fx-background-color: null;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.MainMenuExitController">
+   <children>
+      <Label fx:id="question" alignment="CENTER" maxHeight="100.0" maxWidth="200.0" prefHeight="100.0" prefWidth="200.0" text="Do you really want to exit?" textAlignment="CENTER" textFill="#0f0f0f" wrapText="true">
+         <font>
+            <Font name="French Script MT" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="Yes" alignment="CENTER" maxHeight="50.0" maxWidth="200.0" prefHeight="50.0" prefWidth="200.0" text="Yes" textFill="#0f0f0f">
+         <font>
+            <Font name="French Script MT" size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="No" alignment="CENTER" maxHeight="50.0" maxWidth="200.0" prefHeight="50.0" prefWidth="200.0" text="No" textFill="#0f0f0f">
+         <font>
+            <Font name="French Script MT" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</FlowPane>
