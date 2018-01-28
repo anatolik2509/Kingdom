@@ -25,7 +25,7 @@ public class SpriteAnimation implements Runnable{
 
     @Override
     public void run() {
-        while(working){
+        while(working&&Main.game.isShowing()){
             try{
                 thread.sleep(milis);
             }

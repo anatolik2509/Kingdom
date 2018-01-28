@@ -4,6 +4,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.layout.FlowPane;
 import javafx.scene.paint.Color;
+import root.Texts;
 
 public class MainMenuGameController {
     @FXML
@@ -11,6 +12,7 @@ public class MainMenuGameController {
     @FXML
     FlowPane Contain;
     @FXML public void initialize(){
+        newGame.setText(Texts.getWord(Texts.NEW_GAME));
         newGame.setOnMouseEntered(event -> {
             newGame.setTextFill(Color.DARKORANGE);
         });

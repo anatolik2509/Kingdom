@@ -1,0 +1,11 @@
+Game
+Settings
+Exit
+Yes
+No
+Do you really want to exit?
+New Game
+Full screen
+on
+off
+Language

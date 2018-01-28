@@ -4,14 +4,14 @@
 <?import javafx.scene.layout.FlowPane?>
 <?import javafx.scene.text.Font?>
 
-<FlowPane alignment="TOP_CENTER" columnHalignment="CENTER" hgap="100.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="280.0" prefWidth="200.0" vgap="20.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+<FlowPane alignment="TOP_CENTER" columnHalignment="CENTER" hgap="100.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="280.0" prefWidth="200.0" vgap="20.0" xmlns="http://javafx.com/javafx/8.0.76-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.MainMenuSettingsController">
    <children>
-      <Label text="Full Screen: on" textAlignment="CENTER">
+      <Label fx:id="fullScreen" text="Full Screen: on" textAlignment="CENTER" textFill="#0f0f0f">
          <font>
             <Font name="French Script MT" size="18.0" />
          </font>
       </Label>
-      <Label text="Language">
+      <Label fx:id="language" text="Language" textFill="#0f0f0f">
          <font>
             <Font name="French Script MT" size="36.0" />
          </font>

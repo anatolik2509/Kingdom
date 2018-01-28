@@ -21,6 +21,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage)throws Exception {
+        Texts.installLanguage(Language.selectedLanguage);
         game=primaryStage;
         game.setScene(new Scene(pane));
         pane.setBackground(new Background(new BackgroundFill(Color.BLACK,null,null)));

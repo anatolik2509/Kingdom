@@ -112,6 +112,16 @@ public class MainMenuController {
                 e.printStackTrace();
 
         }});
+        SettingButton.setOnMouseClicked(event -> {
+            if(MainMenu.SecondMenu.getChildren().size()>0)MainMenu.SecondMenu.getChildren().remove(0);
+            try {
+                MainMenu.SecondMenu.getChildren().add(FXMLLoader.load(Main.class.getResource("/GUI/MainMenu_Settings.fxml")));
+            }
+            catch (IOException e){
+                e.printStackTrace();
+
+            }
+        });
     }
 
 
