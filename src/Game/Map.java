@@ -28,6 +28,12 @@ public class Map {
     public void generateTerrain(int x,int y,int size){
         if(x<0||y<0||x>=sizeX||y>=sizeY||size==0) return;
         if(random.nextInt(100)>74)generateTerrain(x+1,y,size-1);
+        if(random.nextInt(100)>74)generateTerrain(x-1,y,size-1);
+        if(random.nextInt(100)>74)generateTerrain(x,y-1,size-1);
+        if(random.nextInt(100)>74)generateTerrain(x-1,y-1,size-1);
+        if(random.nextInt(100)>74)generateTerrain(x,y+1,size-1);
+        if(random.nextInt(100)>74)generateTerrain(x-1,y+1,size-1);
+
     }
 
 
