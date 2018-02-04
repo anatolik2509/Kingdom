@@ -6,6 +6,10 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.image.Image;
+import javafx.scene.input.KeyCharacterCombination;
+import javafx.scene.input.KeyCode;
+import javafx.scene.input.KeyCodeCombination;
+import javafx.scene.input.KeyCombination;
 import javafx.scene.layout.*;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
@@ -22,6 +26,8 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage)throws Exception {
         Texts.installLanguage(Language.selectedLanguage);
+        primaryStage.setFullScreenExitHint("");
+        primaryStage.setFullScreenExitKeyCombination(new KeyCodeCombination(KeyCode.ESCAPE, KeyCombination.SHIFT_DOWN));
         game=primaryStage;
         game.setScene(new Scene(pane));
         pane.setBackground(new Background(new BackgroundFill(Color.BLACK,null,null)));
