@@ -7,6 +7,7 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.paint.Color;
 import root.Language;
 import root.Main;
+import root.MainMenu;
 import root.Texts;
 
 import java.io.IOException;
@@ -40,7 +41,7 @@ public class MainMenuSettingsController {
             fullScreen.setText(Texts.getWord(Texts.FULL_SCREEN)+": "+((Main.game.isFullScreen())?Texts.getWord(Texts.ON):Texts.getWord(Texts.OFF)));
         });
         language.setOnMouseClicked(event -> {
-
+            MainMenu.LanguageSelect.setVisible(true);
         });
     }
 }

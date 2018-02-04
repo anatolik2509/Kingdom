@@ -4,7 +4,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="400.0" maxWidth="300.0" prefHeight="400.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.76-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.LanguageSelectController">
+<Pane maxHeight="400.0" maxWidth="300.0" prefHeight="400.0" prefWidth="300.0" style="-fx-background-color: WHITE;" xmlns="http://javafx.com/javafx/8.0.76-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.LanguageSelectController">
    <children>
       <Label fx:id="eng" layoutX="97.0" text="English">
          <font>
@@ -16,7 +16,7 @@
             <Font name="French Script MT" size="48.0" />
          </font>
       </Label>
-      <Label fx:id="cancel" alignment="BOTTOM_CENTER" contentDisplay="CENTER" layoutX="86.0" layoutY="340.0" prefHeight="46.0" prefWidth="129.0" text="Cancel" textAlignment="CENTER">
+      <Label fx:id="cancel" alignment="BOTTOM_CENTER" contentDisplay="CENTER" layoutX="86.0" layoutY="340.0" prefHeight="46.0" prefWidth="129.0" text="OK" textAlignment="CENTER">
          <font>
             <Font name="French Script MT" size="36.0" />
          </font>

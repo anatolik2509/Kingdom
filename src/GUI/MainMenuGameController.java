@@ -4,6 +4,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.layout.FlowPane;
 import javafx.scene.paint.Color;
+import root.MainMenu;
 import root.Texts;
 
 public class MainMenuGameController {
@@ -20,7 +21,7 @@ public class MainMenuGameController {
             newGame.setTextFill(Color.BLACK);
         });
         newGame.setOnMouseClicked(event -> {
-
+            MainMenu.gameStart.setVisible(true);
         });
     }
 }
